@@ -1,14 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
 /*grids*/
 
-.main-flex {
+.container {
+    margin: 0 auto;
+  }
+  
+  .spacer {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main {
+      background-color: #ffc200;
+  }
+
+  .cards {
+    background-color: #ffc200;
     display:flex;
     flex-wrap:wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    justify-content: flex-end;
-    align-content:flex-start;
-}
+    justify-content:space-around;
+  }
+  
+  .col {
+  display:inline-flex;
+  flex-direction:column;
+  justify-content:space-between;
+  }
 
 header {
     grid-area: h1;
@@ -82,9 +105,9 @@ ul {
 img {
     display: inline-block;
     align-self: center;
-    max-width: 100%;
+    width: auto;
     height:auto;
-    margin:auto;
+    margin: 10px auto;
   }
 
   .header-img {
