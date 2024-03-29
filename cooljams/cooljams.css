@@ -1,13 +1,16 @@
-html, body {
-    margin: 50px;
-    padding: 0;
-  }
 
+
+  /* general*/
+body {
+    background: #F995C5;
+
+}
 
 /*header section*/
 
-
-
+.aligntitle{
+    text-align: center;
+}
 ul {
     display: flex;
     justify-content: space-around;
@@ -16,16 +19,6 @@ ul {
 }
 
 
-
-  .header {
-    margin:0 auto;
-   /* align-self: center;*/
-    
-}
-.linedup li {
-    display: inline;
-    /*float: left;*/
-}
 .button {
 
     margin-top: 10%;
@@ -33,35 +26,8 @@ ul {
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
 
 }
-/*
-.button,
-.external-link {
-width: 100%;
-min-width: 50%;
-padding: .5em 1em;
-text-decoration: none;
-color: inherit;
-text-align: center;
-}
-*/
-.button, .external-link {
 
-border-radius: 20px;
-
-overflow:hidden;
-white-space: nowrap;
-max-height: 20px;
-display: block;
-/*float: left;*/
-background-color: #fffaa0;
-cursor: pointer;
-transition: 0.2s all;
-}
-.header-img {
-    max-width: 500px;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    border-radius: 200px;
-}                                            
+                                      
 
 /*grids*/
 
@@ -93,11 +59,6 @@ transition: 0.2s all;
   }
 
  
-  
-a {
-    color: rgba(255,163,67);
-    text-decoration: none;
-}
 .albums {
    flex: 1;
    padding:20px; 
@@ -107,17 +68,6 @@ a {
     flex: 1;
     padding:20px; 
 }
-
-
-/* general*/
-body {
-    background: #F995C5;
-    margin:auto;
-    padding:0;
-}
-
-
-
 
 
 /*typography*/
@@ -130,7 +80,6 @@ body {
     /*style and color*/
     h1 {
         color: #FFFAA0;
-        text-align:center;
     }
     h2 {
         color: #FFFAA0;
@@ -138,24 +87,28 @@ body {
     p {
         color: white;
     }
+    a {
+        color: rgba(255,163,67);
+        text-decoration: none;
+    }
 
 /*images*/
 
 img {
-    display: inline-block;
-    align-self: center;
     width: auto;
     height:auto;
     margin: 10px auto;
     border-radius: 10px;
   }
 
-  
-
+  .header-img {
+    max-width: 500px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    border-radius: 200px;
+}  
 .album-img{
     max-width: 480px;
     float: left;
-  
 }
 
   .song-img{
@@ -165,11 +118,19 @@ img {
 
   .chloe-img {
     max-width: 480px;
-    margin: auto;
   }
 
   
 
 
-
+  .button, .external-link {
+    border-radius: 20px;
+    overflow:hidden;
+    white-space: nowrap;
+    max-height: 20px;
+    background-color: #fffaa0;
+    cursor: pointer;
+    transition: 0.2s all;
+    }
+        
 
