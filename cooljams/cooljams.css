@@ -2,10 +2,31 @@
 
   /* general*/
 body {
-    background: #F995C5;
+    background:#F995C5; 
 
 }
+nav{
+    margin: 0 auto;
+    background:#ffc977; 
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow:7px 6px 28px 1px rgba(0, 0, 0, 0.24) ;
+}
 
+footer{
+    margin: 0 auto; 
+    max-width: 1000px;
+    border-radius: 20px;
+    text-align: center;
+}
+.footerdeets{
+    background:#ffc977; 
+    margin: 0 auto; 
+    max-width: 1000px;
+    border-radius: 20px;
+    text-align:center ;
+    box-shadow:7px 6px 28px 1px rgba(0, 0, 0, 0.24) ;
+}
 /*header section*/
 
 .aligntitle{
@@ -26,7 +47,7 @@ ul {
 
     margin-top: 10%;
     padding: 8px;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    
 
 }
 
@@ -35,21 +56,17 @@ ul {
 /*grids*/
 
 .container {
-    margin: 0 auto;
-  }
-  
-  .spacer {
-    max-width: 1200px;
-    margin: auto;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
   }
 
+  main {
+    background-color: #F995C5;
 
-  .main {
-      background-color: #FFFAA0;
   }
 
   .cards {
-    background-color: #F995C5;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
@@ -64,10 +81,12 @@ ul {
  
 .albums {
    flex: 1;
+   text-align: center;
 }
 
 .songs {
     flex: 1; 
+    text-align: center;
 }
 
 
@@ -89,7 +108,7 @@ ul {
         color: white;
     }
     a {
-        color: rgba(255,163,67);
+        color: #fffaa0;
         text-decoration: none;
     }
 
@@ -104,7 +123,7 @@ img {
 
   .header-img {
     max-width: 500px;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    
     border-radius: 200px;
 }  
 .album-img{
@@ -119,6 +138,9 @@ img {
 
   .chloe-img {
     max-width: 480px;
+    margin: 0 auto; 
+    border-radius: 20px;
+    
   }
 
   
@@ -129,7 +151,7 @@ img {
     overflow:hidden;
     white-space: nowrap;
     max-height: 20px;
-    background-color: #fffaa0;
+    background-color: rgb(255, 151, 40);;
     cursor: pointer;
     transition: 0.2s all;
     }
