@@ -4,6 +4,31 @@ html, body {
   }
 
 
+/*header section*/
+header {
+    text-align: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+nav{
+    align-items: center;
+    align-content: center;
+  }
+  .header {
+    margin:0 auto;
+    align-self: center;
+    
+}
+.linedup li {
+    display: inline;
+    float: left;
+}
 
 /*grids*/
 
@@ -34,7 +59,8 @@ html, body {
   justify-content:space-between;
   }
 
-
+ 
+  
 a {
     color: rgba(255,163,67);
     text-decoration: none;
@@ -57,23 +83,9 @@ body {
     padding:0;
 }
 
-header {
-    text-align: center;
-    align-items: center;
-}
 
-ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
 
-.header {
-    margin:0 auto;
-    align-self: center;
-    
-}
+
 
 /*typography*/
 
@@ -128,10 +140,7 @@ img {
     margin: auto;
   }
 
-  .linedup li {
-    display: inline;
-    float: left;
-}
+  
 
 
 
