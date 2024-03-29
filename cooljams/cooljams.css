@@ -12,10 +12,13 @@ body {
     text-align: center;
 }
 ul {
+
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style-type:none;
+    margin: 0 auto; 
+    padding-inline-start: 0px;
 }
 
 
@@ -61,12 +64,10 @@ ul {
  
 .albums {
    flex: 1;
-   padding:20px; 
 }
 
 .songs {
-    flex: 1;
-    padding:20px; 
+    flex: 1; 
 }
 
 
