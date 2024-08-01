@@ -59,8 +59,7 @@ h2 {
 }
 
 img {
-    margin: .5em 1em;
-    /* border: 1px solid #ccc; */
+    
     border-radius: 50%;
     height: 150px;
     max-width: 100%;
