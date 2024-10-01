@@ -10,16 +10,20 @@ html, body {
 
 body {
   font-family: Arial, sans-serif; /*change*/
-  background-color: #F995C5; 
   padding: 20px; 
-}
+    margin: 0;
+    min-height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./assets/images/backroundimg.jpg);
 
-html {
-  background: url('/linktree/images/backroundimg.jpg') no-repeat center center fixed; 
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-attachment: fixed;
+    background-size: cover;
+
+
 }
 
 header {
-  background-color: #F995C5;
   padding: 10px 0;
 }
 
@@ -27,7 +31,6 @@ nav{
   margin: 0 auto;
   max-width: 1000px;
   border-radius: 20px;
-
 }
 
 .menu-bar ul {
@@ -42,7 +45,7 @@ margin: 0 20px;
 
 .menu-bar a {
 text-decoration: none; 
-color: white; 
+color: #FFFAA0; 
 font-size: 18px; 
 font-weight: bold;
 }
@@ -50,3 +53,31 @@ font-weight: bold;
 .menu-bar a:hover {
 color: #FFD700; 
 }
+
+.aligntitle{
+  text-align: center;
+}
+
+/*typography*/
+    /*fonts*/
+
+    /*sizing*/
+    h1 { font-size: 45px; }
+    h2 { font-size: 30px; }
+    p {font-size: 20px;}
+
+    /*style and color*/
+    h1 {
+        color: #FFFAA0;
+    }
+    h2 {
+        color: #FFFAA0;
+    }
+    p {
+        color: white;
+    }
+    a {
+        color: #fffaa0;
+        text-decoration: none;
+    }
+
