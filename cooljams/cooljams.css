@@ -2,7 +2,8 @@
 
   /* general*/
 body {
-    background:#F995C5; 
+    background:#F995C5;
+     
 
 }
 nav{
@@ -11,6 +12,27 @@ nav{
     max-width: 1000px;
     border-radius: 20px;
 
+}
+
+.menu-bar ul {
+  list-style-type: none; /* Remove default bullet points */
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.menu-bar li {
+  margin: 0 20px; /* Add space between the menu items */
+}
+
+.menu-bar a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color for the menu items */
+  font-size: 18px; /* Font size */
+  font-weight: bold;
+}
+
+.menu-bar a:hover {
+  color: #FFD700; /* Hover effect for menu items */
 }
 
 footer{
