@@ -1,53 +1,48 @@
-.color-1 {color: #A95C68;}
-.color-2 {color: #8A9A5B;}
-.color-3 {color: #6F8FAF;}
-.color-4 {color: #811331;}
-.color-5 {color: #5C4033;}
-.color-6 {color: #EADDCA;}
-
-.color-7 {color: #fffaa0}
-.color-8 {color: #f994c4}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* add 2 fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kalnia&display=swap');
 
-html{
+html, body {
+  height: 100%; 
+}
+
+body {
+  font-family: Arial, sans-serif; /*change*/
   padding: 20px; 
-    margin: 30px;
-    min-height: 100%; 
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./assets/images/backroundimg.jpg);
+    margin: 0;
+    min-height: 100%;
+    background-image: url(./assets/backroundimg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./assets/backroundimg.jpg);
+
     background-repeat: no-repeat;
     background-position: center;   
     background-attachment: fixed;
     background-size: cover;
-} 
 
-/*html, body {
-  height: 100%; 
-}
-*/
-body { 
-  font-family: Arial, sans-serif; /*change*/
-   background:#EADDCA; 
-  padding-left: 100px;  /*Add padding on the left */
-  padding-right: 100px; /*Add padding on the right */
-  padding-top: 0; /* No padding at the top */
- padding-bottom: 0; 
-  
+
 }
 
 header {
   padding: 10px 0;
 }
 
+main {
+  margin:auto;
+}
+
+margins {
+  max-width: 300px;
+}
+
 nav{
   margin: 0 auto;
   max-width: 1000px;
   border-radius: 20px;
-  border-top: 10px;
 }
 
 .menu-bar ul {
@@ -75,34 +70,36 @@ color: #FFD700;
   text-align: center;
 }
 
-hr{
-  border: none; 
-  height: 2px;
-  background-color: #fffaa0; 
-  width: 80%; 
-  margin: 20px auto; 
+.portfolio{
+  background:#fffaa0;
+  height: 12px;
 }
-
 /*typography*/
     /*fonts*/
 
     /*sizing*/
-    h1 { font-size: 45px; }
-    h2 { font-size: 30px; }
+    h1 { font-size: 45px; font-family: "Kalnia", serif;}
+    h2 { font-size: 35px; font-family: "Kalnia", serif;}
+    h3 { font-size: 30px; font-family: "Kalnia", serif;}
     p {font-size: 20px;}
-
     /*style and color*/
     h1 {
-        color: #fffaa0;
+      color: #FFFAA0;
     }
     h2 {
-        color: #FFFAA0;
+      color: aliceblue;
+    }
+    h3{
+      color: #FFFAA0;
+      
     }
     p {
         color: white;
     }
     a {
         color: #fffaa0;
-        text-decoration: none;
     }
 
+img{
+  margin: auto;
+}
